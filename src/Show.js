@@ -20,7 +20,7 @@ const Show = () => {
   return (
     <>
     <div className='box'>
-    <input type="search" placeholder="enter an item"  value={showData} onChange={handleInput} className="inputbox"/>
+    <input type="search" placeholder="Enter Show name"  value={showData} onChange={handleInput} className="inputbox"/>
     </div>
     <div className="card_container">
     {show.map((data, index)=>{
